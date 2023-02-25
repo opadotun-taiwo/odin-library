@@ -1,0 +1,62 @@
+#new-book-btn{
+    width: 100%;
+    padding: 20px;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.new-form {
+    display: none;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.new-form input {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.library{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.read-status{
+    background-color: blue;
+}
+
+.form-style{
+    width: 100%;
+        border-radius: 10px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+}
